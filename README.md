@@ -1,8 +1,7 @@
 
 ### Preview The Live Project [Click here](https://nft-landing-rizu.netlify.app/)
 
-
-<img src="readme.png" alt="J" width="200"/>
+![HOMEPAGE](src/assets/images/readme.png)
 
 
 
