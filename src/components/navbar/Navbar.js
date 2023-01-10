@@ -73,7 +73,7 @@ export default function Navbar() {
                         textTransform="uppercase"
                         color='teal'
                     >
-                        RIzu
+                        RIzu..
                     </CTypography>
                 </Stack>
 
