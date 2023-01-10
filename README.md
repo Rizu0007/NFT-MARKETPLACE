@@ -1,3 +1,11 @@
+
+### Preview The Live Project [Click here](https://nft-landing-rizu.netlify.app/)
+
+
+<img src="readme.png" alt="J" width="200"/>
+
+
+
 # React Material UI Projects 
 # ***Frontend Project ***
 
@@ -9,7 +17,6 @@ This is a React Material UI Portfolio Projects
 * Material UI
 * ReactJS
 
-### Preview The Live Project [Click here](https://dev-shohan.netlify.app/). or [Click here](https://abdulkader.ninja/)
 
 
 
