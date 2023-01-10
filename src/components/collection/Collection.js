@@ -1,5 +1,3 @@
-import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { Box, Stack } from "@mui/material";
 import React from "react";
 import Slider from "react-slick";
