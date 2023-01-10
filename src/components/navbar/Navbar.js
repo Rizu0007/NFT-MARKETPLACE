@@ -1,11 +1,9 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Avatar, Box, Drawer, IconButton, Stack } from "@mui/material";
+import {  Box, Drawer, IconButton, Stack } from "@mui/material";
 import React from "react";
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
-import UserProfile from "../../assets/images/UserProfile.png";
-import CButton from '../../utility/CButton';
 import CTypography from "../../utility/CTypography";
 import Influencers from '../influencers/Influencers'
 
@@ -35,7 +33,7 @@ const navbarData = {
 
 export default function Navbar() {
     const [open, setOpen] = React.useState(false);
-    const { routes, logo, logoTitle } = navbarData
+    const { routes, logo } = navbarData
 
     return (
         <Box>

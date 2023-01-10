@@ -2,7 +2,6 @@ import { Box, Grid } from "@mui/material";
 import { Stack } from "@mui/system";
 import React from "react";
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
 import FbIcon from "../../assets/svg/FbIcon";
 import GoogleIcon from "../../assets/svg/GoogleIcon";
 import TwitterIcon from "../../assets/svg/TwitterIcon";
@@ -10,7 +9,6 @@ import YoutubeIcon from "../../assets/svg/YoutubeIcon";
 import { CTypography } from "../../utility";
 
 const footerData = {
-    logo: logo,
     description: 'RIZU is the world’s leading NFTs marketplace where you can discover, sell and bid NFTs and get rich ',
     socialLinks: [
         {
@@ -82,7 +80,7 @@ const footerData = {
     ]
 }
 export default function Footer() {
-    const { logo, description, socialLinks, copyRight, aboutLinks, supportLinks } = footerData;
+    const { description, socialLinks, copyRight, aboutLinks, supportLinks } = footerData;
     const LogoSection = () => {
         return (
             <Stack

@@ -13,22 +13,7 @@ import { CTypography } from "../../utility";
 import './collection.css';
 const images = [collection2, collection3, collection4, collection5, collection6, collection7];
 export default function Collection() {
-    const NextArrow = ({ onClick }) => {
-        return (
-            <div className="arrow next" onClick={onClick}>
-                <ArrowRightIcon />
-            </div>
-        );
-    };
-
-    const PrevArrow = ({ onClick }) => {
-        return (
-            <div className="arrow prev" onClick={onClick}>
-                <ArrowLeftIcon />
-            </div>
-        );
-    };
-
+   
     const [imgIndex, setImgIndex] = React.useState(0)
 
     const settings = {
